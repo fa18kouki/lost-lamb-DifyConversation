@@ -7,6 +7,9 @@ import appEn from './lang/app.en'
 import appZh from './lang/app.zh'
 import toolsEn from './lang/tools.en'
 import toolsZh from './lang/tools.zh'
+import commonJa from './lang/common.ja'
+import appJa from './lang/app.ja'
+import toolsJa from './lang/tools.ja'
 import type { Locale } from '.'
 
 const resources = {
@@ -24,6 +27,14 @@ const resources = {
       app: appZh,
       // tools
       tools: toolsZh,
+    },
+  },
+  'ja': {
+    translation: {
+      common: commonJa,
+      app: appJa,
+      // tools
+      tools: toolsJa,
     },
   },
 }
